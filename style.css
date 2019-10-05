@@ -1,0 +1,114 @@
+.block {
+    background-image: url(https://cs9.pikabu.ru/post_img/big/2017/02/09/8/1486644025191452535.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+
+}
+
+.img {
+    float: left;
+    border: 1px solid red;
+    width: 150px;
+    height: 150px;
+}
+.text {
+    width: 25%;
+
+
+}
+.square {
+    position: absolute;
+    left: 50% ;
+    bottom: 60%;
+    background: green;
+    width: 150px;
+    height: 150px;
+    border: 1px solid blue;
+}
+.circle {
+    position: absolute;
+    left: 25% ;
+    top: 25%;
+    border-radius: 50%;
+    background: blueviolet;
+    width: 75px;
+    height: 75px;
+}
+.square-too {
+    position: absolute;
+    left: 50% ;
+    bottom: 35%;
+    background: green;
+    width: 150px;
+    height: 150px;
+    border: 1px solid blue;
+}
+.circle-too {
+    position: absolute;
+    left: 25% ;
+    top: 25%;
+    border-radius: 50%;
+    background: blueviolet;
+    width: 75px;
+    height: 75px;
+}
+.imgg {
+    width: 150px;
+    height: 150px;
+    
+}
+.three-img {
+    position: relative;
+    left: 80%;
+    bottom: 50%;
+}
+
+@keyframes zakat-t {
+0% {
+    transform: translate(0px, 0px);
+    opacity: 0;
+}
+20% {
+    opacity: 0.2;
+    background: linear-gradient(right orange, red)
+}
+40% {
+    transform: translate(40px, 40px);
+    opacity: 0.4;
+    background: linear-gradient(circle red, orange)
+
+}
+60% {
+    opacity: 0.6;
+    box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+}
+80% {
+    transform: translate(80px, 80px);
+    opacity: 0.8;
+    box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+    background: white;
+}
+100% {
+    transform: translate(0px, 0px);
+    opacity: 1;
+    box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+}
+}
+
+
+.anim-t {
+    width: 200px;
+    height: 200px;
+    background-image: url(https://primamedia.gcdn.co/f/main/1630/1629368.jpg?7a6ae249942895b595b252844ed87200);
+    background-size: cover;
+    border-radius: 10%;
+    animation-name: zakat-t;
+    animation-duration: 3s;
+    animation-timing-function: ease;
+    animation-delay: 1s;
+    animation-iteration-count: infinite;
+
+}
+
